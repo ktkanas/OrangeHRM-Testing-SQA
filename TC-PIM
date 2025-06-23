@@ -1,0 +1,26 @@
+# ✅ Test Cases – PIM Module
+
+## Module: PIM – Employee Management
+
+**Objective:**  
+To ensure the employee management section (PIM) allows proper search, filtering, and access to employee records.
+
+---
+
+| TC ID       | Title                                         | Type       | Priority | Preconditions         | Test Steps                                                                                     | Expected Result                                        | Status |
+|-------------|-----------------------------------------------|------------|----------|------------------------|------------------------------------------------------------------------------------------------|---------------------------------------------------------|--------|
+| TC-PIM-01   | Access PIM module                             | Functional | High     | User is logged in      | 1. Click on “PIM” in the left navigation                                                       | PIM page loads successfully                             | ✅ Pass |
+| TC-PIM-02   | View employee list                            | Functional | High     | On PIM page            | 1. Observe employee records shown in table                                                     | Table displays employee data                            | ✅ Pass |
+| TC-PIM-03   | Search employee by name                       | Functional | High     | On PIM page            | 1. Enter "Linda" in Employee Name field<br>2. Click Search                                     | Linda’s record is shown                                 | ✅ Pass |
+| TC-PIM-04   | Search by employee ID                         | Functional | Medium   | On PIM page            | 1. Enter valid employee ID<br>2. Click Search                                                  | Matching employee record is shown                       | ✅ Pass |
+| TC-PIM-05   | Filter by Employment Status                   | Functional | Medium   | On PIM page            | 1. Choose "Full-Time Permanent" from status dropdown<br>2. Click Search                        | Filtered list displays full-time employees              | ✅ Pass |
+| TC-PIM-06   | Filter by Job Title                           | Functional | Medium   | On PIM page            | 1. Select Job Title: "QA Engineer"<br>2. Click Search                                          | All QA Engineers are shown                              | ✅ Pass |
+| TC-PIM-07   | Filter by Sub Unit                            | Functional | Medium   | On PIM page            | 1. Select Sub Unit: "IT Department"<br>2. Click Search                                         | All employees under IT department shown                 | ✅ Pass |
+| TC-PIM-08   | View employee details                         | Functional | Medium   | After search/filter    | 1. Click on any employee row                                                                   | Detailed employee profile opens                         | ✅ Pass |
+| TC-PIM-09   | Reset search filters                          | Functional | Low      | After applying filters  | 1. Click Reset                                                                                 | All fields are cleared and full list reloaded           | ✅ Pass |
+| TC-PIM-10   | Table pagination                              | Functional | Low      | More than 10 records   | 1. Click "Next" page at bottom                                                                 | Next set of employees shown                             | ✅ Pass |
+| TC-PIM-11   | UI validation of search/filter section        | UI         | Low      | On PIM page            | 1. Check alignment, dropdown styling, and input boxes                                         | All filters are aligned and usable                      | ✅ Pass |
+| TC-PIM-12   | Search with blank values                      | Negative   | Medium   | On PIM page            | 1. Leave all fields blank<br>2. Click Search                                                  | Returns full employee list                              | ✅ Pass |
+| TC-PIM-13   | Search with invalid name                      | Negative   | Medium   | On PIM page            | 1. Enter "Xyznobody" in Employee Name<br>2. Click Search                                       | Message “No Records Found” appears                      | ✅ Pass |
+
+
