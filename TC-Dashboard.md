@@ -18,3 +18,8 @@ To validate login functionality, including both valid and invalid user actions.
 | TC-LOGIN-07 | Submit form using Enter key        | Functional | Medium   | Login page is loaded | 1. Enter valid credentials<br>2. Press Enter                              | Form submits and logs in                       | ✅ Pass |
 | TC-LOGIN-08 | Remember Me functionality          | UI         | Low      | Login page is loaded | 1. Check "Remember Me"<br>2. Login<br>3. Logout<br>4. Reopen browser      | Username is retained                           | ✅ Pass |
 | TC-LOGIN-09 | Case sensitivity in username field | Negative   | Low      | Login page is loaded | 1. Enter 'admin' instead of 'Admin'<br>2. Valid password<br>3. Click Login | Login fails if username is case-sensitive      | ✅ Pass |
+
+
+
+![image](https://github.com/user-attachments/assets/4224b9c3-c331-403e-9e20-02da7f0ab528)
+
