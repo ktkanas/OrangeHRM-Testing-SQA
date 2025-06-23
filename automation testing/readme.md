@@ -14,24 +14,6 @@ This repository showcases a complete **Selenium-based automation testing framewo
 
 ---
 
-## 📂 Folder Structure
-
-```bash
-orangehrm-automation/
-├── pages/                 # Page Objects
-│   ├── login_page.py
-│   ├── dashboard_page.py
-│   └── leave_page.py
-├── tests/                 # Test Cases
-│   ├── test_login.py
-│   ├── test_dashboard.py
-│   └── test_leave.py
-├── utils/
-│   └── driver_setup.py    # Browser setup
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 ## ✅ Features Covered
