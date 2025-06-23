@@ -1,63 +1,78 @@
-# OrangeHRM-Testing-SQA
-# 🧾 OrangeHRM Manual Testing Project – SQA Portfolio
+# 🧪 OrangeHRM Manual Testing Project – SQA Portfolio
 
-A complete manual testing project based on the OrangeHRM demo site (https://opensource-demo.orangehrmlive.com/). This repository simulates industry-standard QA processes by documenting each module's test cases, a test plan, bug reports, and summary reports.
+This repository showcases a complete **manual QA project** conducted on the [OrangeHRM Demo Site](https://opensource-demo.orangehrmlive.com/). It simulates industry-standard software testing practices including test planning, case design, bug reporting, and execution tracking.
 
 ---
 
 ## 📌 Project Overview
 
-**System Under Test (SUT):** OrangeHRM Demo Website  
-**URL:** https://opensource-demo.orangehrmlive.com/  
-**Testing Type:** Manual Testing (Black Box)  
-**Tools Used:** Chrome, Firefox, Google Sheets, Markdown, GitHub  
+- **Application:** OrangeHRM (Open Source HRM System)
+- **Testing Type:** Manual Black-Box Testing
+- **Platform:** Web Application
+- **Role:** QA Engineer (Manual)
+- **Tools Used:** Google Sheets, Markdown, Chrome, GitHub
 
 ---
 
-## 🧾 Software Requirements Specification (SRS)
+## 📂 Folder Structure
 
-### 1. Functional Requirements
+/orangehrm-manual-qa/
+├── OrangeHRM_Project_Overview.md
+├── Test_Plan.md
+├── TC_Login.md
+├── TC_Dashboard.md
+├── TC_Admin.md
+├── TC_PIM.md
+├── TC_Leave.md
+├── TC_Directory.md
+├── TC_Negative.md
+├── Bug_Report.md
+├── Test_Summary_Report.md
+└── evidence/
+├── screenshots/
+└── bug-001-apply-button.mp4
 
-| Module     | Requirement Description |
-|------------|--------------------------|
-| Login      | Users must be able to log in using valid credentials |
-| Dashboard  | Should display widgets and links to modules |
-| Admin      | Admin can view and manage employee data |
-| PIM        | Users can search, add, and edit employee profiles |
-| Leave      | Users can apply for leave and track leave status |
-| Directory  | Directory should return accurate employee search results |
-| Profile    | Users can view their profile and log out safely |
-
----
-
-### 2. Non-Functional Requirements
-
-- Login response time should be under 2 seconds
-- UI should work on desktop and mobile browsers
-- All interactive elements must be accessible and user-friendly
 
 ---
 
-### 3. Assumptions
+## 📋 What’s Included
 
-- Public demo environment is stable but may reset daily
-- Access is limited to predefined demo roles (Admin only)
-
----
-
-### 4. Constraints
-
-- No access to database or email systems
-- Limited write permissions for some modules
+| Document                | Description                                                 |
+|-------------------------|-------------------------------------------------------------|
+| `Project_Overview.md`   | SRS-style functional and non-functional requirements         |
+| `Test_Plan.md`          | Scope, objectives, test strategy, deliverables               |
+| `TC_*.md`               | Full test case suites by module (Login, Dashboard, etc.)     |
+| `Bug_Report.md`         | Jira-style bug report with repro steps, logs, and evidence   |
+| `Test_Summary_Report.md`| Final pass/fail status and QA wrap-up                        |
 
 ---
 
-## 👤 Test Author
+## 📝 Highlight Features
 
-**Name:** Muhammad Anas  
-**Role:** QA Engineer (Manual Testing)  
-**Date:** June 2025  
-**Status:** ✅ Completed
+- ✅ 60+ functional and negative test cases  
+- 🧪 End-to-end coverage of all key modules (Login, Leave, Admin, PIM, Directory)  
+- 🐞 Bug simulation with video proof (Apply Leave Button)  
+- 💻 Fully structured and GitHub-ready documentation
 
 ---
 
+## 🧠 Use This Project For
+
+- QA job applications or internships  
+- Manual testing portfolio showcase  
+- Practice writing structured test artifacts  
+- Creating real-world bug reports
+
+---
+
+## 🧑‍💻 Author
+
+**Muhammad Anas**  
+Manual QA Engineer | Software Tester  
+Email: [anasktk.official@gmail.com](mailto:anasktk.official@gmail.com)
+
+---
+
+## 🌐 Live System Under Test
+
+[OrangeHRM Demo Site](https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index)
