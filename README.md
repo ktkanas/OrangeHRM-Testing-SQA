@@ -37,12 +37,12 @@ This repository showcases a complete **manual QA project** conducted on the [Ora
 
 ---
 
-## 🧠 Use This Project For
+## 🧠 Using This Project For
 
 - QA job applications or internships  
 - Manual testing portfolio showcase  
 - Practice writing structured test artifacts  
-- Creating real-world bug reports
+- showcasing my ability in working on real-world bug reports
 
 ---
 
