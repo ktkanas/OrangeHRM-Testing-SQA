@@ -12,25 +12,6 @@ This repository showcases a complete **manual QA project** conducted on the [Ora
 - **Role:** QA Engineer (Manual)
 - **Tools Used:** Google Sheets, Markdown, Chrome, GitHub
 
----
-
-## 📂 Folder Structure
-
-/orangehrm-manual-qa/
-├── OrangeHRM_Project_Overview.md
-├── Test_Plan.md
-├── TC_Login.md
-├── TC_Dashboard.md
-├── TC_Admin.md
-├── TC_PIM.md
-├── TC_Leave.md
-├── TC_Directory.md
-├── TC_Negative.md
-├── Bug_Report.md
-├── Test_Summary_Report.md
-└── evidence/
-├── screenshots/
-└── bug-001-apply-button.mp4
 
 
 ---
